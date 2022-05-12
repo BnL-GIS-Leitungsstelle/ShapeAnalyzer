@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ShapeAnalyzer.Exceptions.GeoException">
+    <Position X="2.25" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\GeoException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeAnalyzer.Geo.GeoHandler">
+    <Position X="8.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBAAEBAAAAAAAAQAAAAAAgIKAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geo\GeoHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeAnalyzer.Geo.OverlapResult">
+    <Position X="8.75" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAQAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Geo\OverlapResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeAnalyzer.Geo.ShapeFileAnalyzer">
+    <Position X="5.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAIAAAAACAgAAAYAUUAEYAQAAAEAgAAAA=</HashCode>
+      <FileName>Geo\ShapeFileAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeAnalyzer.Models.ShapeAnalysisModel">
+    <Position X="3" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAQAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Models\ShapeAnalysisModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeAnalyzer.Utils.LoggingUtils">
+    <Position X="3" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Utils\LoggingUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeAnalyzer.Utils.OpenFileDialogUtils">
+    <Position X="5.75" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Utils\OpenFileDialogUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeAnalyzer.ViewModels.ShapeAnalysisPresenter">
+    <Position X="0.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAkGAAAAAAEAgIJAAIAAhQEAAAAAAEAAQAAAAA=</HashCode>
+      <FileName>ViewModels\ShapeAnalysisPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeAnalyzer.ViewModels.Mvvm.Command">
+    <Position X="3" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>ViewModels\Mvvm\Command.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ShapeAnalyzer.ViewModels.Mvvm.Presenter">
+    <Position X="0.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\Mvvm\Presenter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ShapeAnalyzer.MainWindow">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ShapeAnalyzer.Utils.MailUtils">
+    <Position X="5.75" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAEACAAAAA=</HashCode>
+      <FileName>Utils\MailUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeAnalyzer.Utils.VersionInformationUtils">
+    <Position X="5.75" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\VersionInformationUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
