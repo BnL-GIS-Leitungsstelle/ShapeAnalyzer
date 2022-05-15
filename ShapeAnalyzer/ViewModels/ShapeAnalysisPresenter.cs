@@ -89,7 +89,7 @@ namespace ShapeAnalyzer.ViewModels
 
         private void UpdateStatus(string status)
         {
-            Status = $"Status: {status}";
+            Status = $"{status}";
         }
     }
 }

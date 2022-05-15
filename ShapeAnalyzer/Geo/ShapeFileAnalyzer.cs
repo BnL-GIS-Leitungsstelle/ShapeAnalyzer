@@ -99,7 +99,7 @@ namespace ShapeAnalyzer.Geo
         {
             _logger.Info("Calculate area");
             var area = _geoHandler.GetAreaInHa(layer);
-            analysis.Append($"---- Area ----{Environment.NewLine}{area} ha");
+            analysis.Append($"---- Area ----{Environment.NewLine}{area:F4} ha");
 
             analysis.AppendLine();
             analysis.AppendLine();
@@ -115,7 +115,7 @@ namespace ShapeAnalyzer.Geo
             if (overlapResult.OverlapPercentage < 100)
             {
                 analysis.Append($"---- Area Outside CH ----{Environment.NewLine}" +
-                    $"{overlapResult.NonOverlappingAreaInHa} ha   {100 - overlapResult.OverlapPercentage} %");
+                    $"{overlapResult.NonOverlappingAreaInHa:F4} ha   {100 - overlapResult.OverlapPercentage:F3} %");
 
                 analysis.AppendLine();
                 analysis.AppendLine();
