@@ -9,12 +9,6 @@
     <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="OgcTools">
-      <HintPath>..\..\OgcTools\OgcGeometry\bin\Debug\OgcTools.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Transactions" />
-  </ItemGroup>
-  <ItemGroup>
     <None Update="Data\Switzerland_Shapes.requiredData">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
